@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "API Quoted Chat Telegram Support Replit Host!",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "lint": "node_modules/.bin/eslint --ext js .",
-    "lint:fix": "node_modules/.bin/eslint --fix --ext js ."
-  },
+"scripts": {
+  "start": "node index.js",
+  "build": "NODE_ENV=production npm ci --only=production && npm run build:your-build-script"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rizzlogy/qc-api"
